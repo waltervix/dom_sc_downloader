@@ -1,6 +1,6 @@
 # 📄 Web scraper e downloader de documentos do Diário Oficial dos Municípios de Santa Catarina (DOM-SC) 🗞
 
-Este projeto contém um script Python 🐍 para realizar web scraping e download automático de documentos a partir da pesquisa realizada no site de busca do DOM-SC: https://www.diariomunicipal.sc.gov.br/
+Este projeto contém um script Python 🐍 (`main.py`) para realizar web scraping e download automático de documentos a partir de pesquisa realizada no site do DOM-SC: https://www.diariomunicipal.sc.gov.br/
 
 ## ⚙️ Funcionalidades
 
@@ -8,28 +8,28 @@ Este projeto contém um script Python 🐍 para realizar web scraping e download
     
 *   Identifica se os resultados possuem múltiplas páginas e percorre cada uma para coletar os links para download dos documentos 🔗
     
-*   Faz download dos documentos PDF 📃, DOC 📄, XLS 📊 etc. a partir dos links obtidos 📥
+*   Faz download de diferentes tipos de documentos (PDF 📃, DOC 📄, XLS 📊 etc.) a partir dos links obtidos 📥
     
-*   Salva os documentos baixados localmente na pasta criada 'documentos' com nomes tratados e organizados 🗂
+*   Salva os documentos baixados localmente na pasta local criada `./documentos` 📂, com nomes tratados e organizados 🗂
     
-*   Gera um arquivo CSV 📇 com nomes dos documentos e links para a página de origem ↩️
+*   Gera um arquivo CSV 📇 com nomes dos documentos e links para a páginas de origem dos documentos ↩️
     
 
 ## 📚 Bibliotecas utilizadas
 
 As seguintes bibliotecas Python são utilizadas:
 
-*   Requests - para realizar as requisições HTTP e obter os dados das páginas 🌐
-    
-*   Beautiful Soup - para analisar o HTML das páginas de resultados e extrair os links 🍲
-    
-*   CSV - para manipulação do arquivo CSV de saída 📊
-    
 *   OS - para interagir com o sistema de arquivos local 💿
-    
 *   RE - para tratamento dos nomes dos arquivos ✏️
-    
+*   CSV - para manipulação do arquivo CSV de saída 📊
 *   Random - para gerar nomes únicos para os arquivos baixados 🎲
+*   Time - para registrar tempos de execução do script ⏱️
+*   Shutil - para mover/copiar arquivos no sistema de arquivos 📁
+*   Random - para gerar strings aleatórias 🎲
+*   String - para manipulação de strings ➰
+*   Requests - para realizar as requisições HTTP e obter os dados das páginas 🌐
+
+*   Beautiful Soup - para analisar o HTML das páginas de resultados e extrair os links 🍲
     
 
 ## ▶️ Como usar
