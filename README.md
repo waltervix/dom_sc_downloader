@@ -10,7 +10,7 @@ Este projeto contém um script Python 🐍 (`main.py`) para realizar web scrapin
     
 *   Faz download de diferentes tipos de documentos (PDF 📃, DOC 📄, XLS 📊 etc.) a partir dos links obtidos 📥
     
-*   Salva os documentos baixados localmente na pasta local criada `./documentos` 📂, com nomes tratados e organizados 🗂
+*   Salva os documentos baixados localmente na pasta `./documentos` 📂, com nomes tratados e organizados 🗂
     
 *   Gera um arquivo CSV 📇 com nomes dos documentos e links para a páginas de origem dos documentos ↩️
     
