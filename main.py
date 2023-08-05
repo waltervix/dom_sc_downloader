@@ -1,4 +1,3 @@
-
 # Módulos nativos
 import os
 import re
