@@ -58,21 +58,21 @@ else:
 ##########################
 
 # Extrai diretório local
-dir = os.getcwd()
-print('Diretório local:', dir)
+dir_ = os.getcwd()
+print('Diretório local:', dir_)
 
 # Cria pasta 'documentos' no diretório local, caso não exista
 if not os.path.exists('documentos'):
     os.makedirs('documentos')
 
 # Cria arquivo 'documentos.csv' dentro da pasta 'documentos', caso não exista
-arquivo_csv = fr'{dir}\documentos\documentos.csv'
+arquivo_csv = fr'{dir_}\documentos\documentos.csv'
 
 # Verifica se o arquivo 'documentos.csv' existe. Se não existir, cria o arquivo
 if not os.path.exists(arquivo_csv):
 
     # Cria arquivo csv vazio
-    with open(fr'{dir}\documentos\documentos.csv', 'w', newline='') as arquivo:
+    with open(fr'{dir_}\documentos\documentos.csv', 'w', newline='') as arquivo:
 
         # Cria objeto writer do módulo csv
         writer = csv.writer(arquivo, delimiter=';')
@@ -88,7 +88,7 @@ if not os.path.exists(arquivo_csv):
 def atualiza_arquivo_csv(row):
     
     # Abre arquivo csv no modo somente leitura (read)
-    with open(fr'{dir}\documentos\documentos.csv', 'r', newline='') as arquivo:
+    with open(fr'{dir_}\documentos\documentos.csv', 'r', newline='') as arquivo:
 
         # Cria objeto reader
         reader = csv.reader(arquivo, delimiter=';')
@@ -100,7 +100,7 @@ def atualiza_arquivo_csv(row):
         if row not in linhas:
 
             # Abre arquivo csv no modo incremento (append)
-            with open(fr'{dir}\documentos\documentos.csv', 'a', newline='') as arquivo2:
+            with open(fr'{dir_}\documentos\documentos.csv', 'a', newline='') as arquivo2:
 
                 # Cria objeto writer do módulo csv
                 writer = csv.writer(arquivo2, delimiter=';')
@@ -233,7 +233,7 @@ for i in range(1, ultima_pagina + 1):
         random_string = ''.join(random.choice(characters) for k in range(10))
 
         # Cria arquivo temporário no diretório 'documentos'
-        with open(f'{dir}\documentos\{random_string}.{tipo_arquivo}', 'wb') as f:
+        with open(f'{dir_}\documentos\{random_string}.{tipo_arquivo}', 'wb') as f:
             for chunk in response.iter_content(1024 * 10):  # chunks
                 f.write(chunk)
 
@@ -245,11 +245,11 @@ for i in range(1, ultima_pagina + 1):
         h4_trat2 = invalid_chars.sub('_', h4_trat1)
 
         # Constrói caminho para salvamento do arquivo definitivo
-        caminho = fr"{dir}\documentos\{h4_trat2}_{random_string}_{i}_.{tipo_arquivo}"
+        caminho = fr"{dir_}\documentos\{h4_trat2}_{random_string}_{i}_.{tipo_arquivo}"
 
         # Salva o arquivo definitivo na pasta 'documentos'
         # Para saber a página de resultados de onde foi extraído o arquivo, vide código '_[número da página]_' no final do nome do arquivo
-        shutil.copyfile(f'{dir}\documentos\{random_string}.{tipo_arquivo}', caminho)
+        shutil.copyfile(f'{dir_}\documentos\{random_string}.{tipo_arquivo}', caminho)
 
         # =======================================================
 
@@ -269,7 +269,7 @@ for i in range(1, ultima_pagina + 1):
         contador += 1
 
         # Apaga arquivo temporário criado
-        os.remove(f'{dir}\documentos\{random_string}.{tipo_arquivo}')
+        os.remove(f'{dir_}\documentos\{random_string}.{tipo_arquivo}')
 
         # Incrementa contador do total de documentos localizados
         num += 1
