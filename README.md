@@ -36,15 +36,15 @@ As seguintes bibliotecas Python são utilizadas:
 
 Para utilizar o script, é necessário:
 
-1.  Realizar uma pesquisa no site do DOM-SC, ajustando os parâmetros de busca 🔎
+1.  Realizar uma pesquisa no site do DOM-SC, ajustando os parâmetros de busca conforme necessário 🔎
     
-2.  Copiar a URL da última (ou única) página de resultados 📋
+2.  Copiar a URL da última (ou única) página de resultados (clicar no botão Última) 📋
     
 3.  Colar essa URL no terminal quando solicitado pelo programa 💻
     
 4.  O processo de scraping, download e organização dos arquivos será feito automaticamente ⚙️
     
-5.  Os documentos e arquivo CSV serão salvos na pasta local `./documentos` 📂
+5.  Os documentos e arquivo CSV serão salvos na pasta local `./documentos`, criada pelo script 📂
     
 
 Caso deseje customizar ou estender o programa, o código fonte pode ser adaptado conforme necessário. 🛠
