@@ -192,7 +192,7 @@ for i in range(1, ultima_pagina + 1):
         print(response.headers['Content-Type'])
 
         # Extrai subtipo do mimetype do documento (após a '/')
-        tipo_arquivo = response.headers['Content-Type'].split('/')[1:]
+        tipo_arquivo = response.headers['Content-Type'].split('/')[-1]
 
 
         # Verifica se o final da URL do documento possui extensão. Se possuir, o uso dessa extensão é priorizado
