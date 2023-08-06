@@ -1,7 +1,7 @@
 # 🐍 Como criar um ambiente virtual usando o Miniconda 
 
 O procedimento a seguir cria um ambiente virtual com interpretador Python que pode ser executado em qualquer pasta, incluindo pendrives e hd externos.
-
+ 
 ## 🗂️ Passo a passo
 
 1) Obtenha uma cópia do Miniconda (https://docs.conda.io/en/latest/miniconda.html). Baixe a versão para Windows com Python 3.10. 💻
