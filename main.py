@@ -2,7 +2,6 @@
 import os
 import re
 import csv
-import glob
 import time
 import shutil
 import random
@@ -12,10 +11,8 @@ import string
 import requests
 from bs4 import BeautifulSoup
 
-
 # Desabilita verificação de SSL para permitir acesso ao site com certificado auto-assinado
 requests.packages.urllib3.disable_warnings()
-
 
 
 ##################
@@ -26,7 +23,7 @@ requests.packages.urllib3.disable_warnings()
 ultima_pagina = 1
 pagina_unica = False
 
-# Solicita ao usuário URL da última (ou única) página do resultado da pesquisa
+# Solicita ao usuário URL da última (ou única) página do resultado da pesquisa no site DOM-SC (https://www.diariomunicipal.sc.gov.br/)
 url = input('\nCopie e cole aqui a URL da última (ou única) página de resultados do DOM-SC: ')
 lista_temp = url.split('=')[:-1]
 
@@ -56,7 +53,6 @@ else:
     pagina_unica = True
 
 
-
 ##########################
 # CRIA PASTA E ARQUIVO CSV
 ##########################
@@ -65,27 +61,24 @@ else:
 dir = os.getcwd()
 print('Diretório local:', dir)
 
-
 # Cria pasta 'documentos' no diretório local, caso não exista
 if not os.path.exists('documentos'):
     os.makedirs('documentos')
 
-
 # Cria arquivo 'documentos.csv' dentro da pasta 'documentos', caso não exista
-arquivo_csv = r'.\documentos\documentos.csv'
+arquivo_csv = fr'{dir}\documentos\documentos.csv'
 
 # Verifica se o arquivo 'documentos.csv' existe. Se não existir, cria o arquivo
 if not os.path.exists(arquivo_csv):
 
     # Cria arquivo csv vazio
-    with open(r'.\documentos\documentos.csv', 'w', newline='') as arquivo:
+    with open(fr'{dir}\documentos\documentos.csv', 'w', newline='') as arquivo:
 
         # Cria objeto writer do módulo csv
         writer = csv.writer(arquivo, delimiter=';')
 
         # Insere primeira linha no arquivo csv (título das colunas)
         writer.writerow(['Documento', 'Link', 'Página de Resultados'])  
-
 
 
 ######################
@@ -95,7 +88,7 @@ if not os.path.exists(arquivo_csv):
 def atualiza_arquivo_csv(row):
     
     # Abre arquivo csv no modo somente leitura (read)
-    with open(r'.\documentos\documentos.csv', 'r', newline='') as arquivo:
+    with open(fr'{dir}\documentos\documentos.csv', 'r', newline='') as arquivo:
 
         # Cria objeto reader
         reader = csv.reader(arquivo, delimiter=';')
@@ -107,14 +100,13 @@ def atualiza_arquivo_csv(row):
         if row not in linhas:
 
             # Abre arquivo csv no modo incremento (append)
-            with open(r'.\documentos\documentos.csv', 'a', newline='') as arquivo2:
+            with open(fr'{dir}\documentos\documentos.csv', 'a', newline='') as arquivo2:
 
                 # Cria objeto writer do módulo csv
                 writer = csv.writer(arquivo2, delimiter=';')
 
                 # Acrescenta linha de dados ao arquivo csv
                 writer.writerow(row)
-
 
 
 ##########################################
@@ -194,7 +186,6 @@ for i in range(1, ultima_pagina + 1):
         # Extrai subtipo do mimetype do documento (após a '/')
         tipo_arquivo = response.headers['Content-Type'].split('/')[-1]
 
-
         # Verifica se o final da URL do documento possui extensão. Se possuir, o uso dessa extensão é priorizado
         # Realiza loop sobre lista de nomes das extensões
         for k in lista_extensoes:
@@ -242,7 +233,7 @@ for i in range(1, ultima_pagina + 1):
         random_string = ''.join(random.choice(characters) for k in range(10))
 
         # Cria arquivo temporário no diretório 'documentos'
-        with open(f'.\documentos\{random_string}.{tipo_arquivo}', 'wb') as f:
+        with open(f'{dir}\documentos\{random_string}.{tipo_arquivo}', 'wb') as f:
             for chunk in response.iter_content(1024 * 10):  # chunks
                 f.write(chunk)
 
@@ -254,11 +245,11 @@ for i in range(1, ultima_pagina + 1):
         h4_trat2 = invalid_chars.sub('_', h4_trat1)
 
         # Constrói caminho para salvamento do arquivo definitivo
-        caminho = fr".\documentos\{h4_trat2}_{random_string}_{i}_.{tipo_arquivo}"
+        caminho = fr"{dir}\documentos\{h4_trat2}_{random_string}_{i}_.{tipo_arquivo}"
 
         # Salva o arquivo definitivo na pasta 'documentos'
         # Para saber a página de resultados de onde foi extraído o arquivo, vide código '_[número da página]_' no final do nome do arquivo
-        shutil.copyfile(f'.\documentos\{random_string}.{tipo_arquivo}', caminho)
+        shutil.copyfile(f'{dir}\documentos\{random_string}.{tipo_arquivo}', caminho)
 
         # =======================================================
 
@@ -278,7 +269,7 @@ for i in range(1, ultima_pagina + 1):
         contador += 1
 
         # Apaga arquivo temporário criado
-        os.remove(f'.\documentos\{random_string}.{tipo_arquivo}')
+        os.remove(f'{dir}\documentos\{random_string}.{tipo_arquivo}')
 
         # Incrementa contador do total de documentos localizados
         num += 1
