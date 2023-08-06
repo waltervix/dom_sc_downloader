@@ -1,6 +1,6 @@
-# 📄 Realiza download automático de documentos publicados no Diário Oficial dos Municípios de Santa Catarina (DOM-SC) 🗞
+# 📄 DOM-SC Downloader 🗞
 
-Este projeto contém um script Python 🐍 (`main.py`) para realizar web scraping e download automático de documentos a partir de pesquisa realizada no site do DOM-SC: https://www.diariomunicipal.sc.gov.br/
+Projeto criado em Python 🐍 (`main.py`) para executar web scraping e download automático de documentos publicados no Diário Oficial dos Municípios de Santa Catarina (DOM-SC), a partir do resultado de pesquisa realizada pelo usuário no site https://www.diariomunicipal.sc.gov.br/
 
 ## ⚙️ Funcionalidades
 
