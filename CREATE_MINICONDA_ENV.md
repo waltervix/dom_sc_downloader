@@ -14,7 +14,7 @@ O procedimento a seguir cria um ambiente virtual com interpretador Python que po
 
 5) Crie um ambiente virtual denominado 'dom_sc' digitando `conda create --name dom_sc python=3.10` 🆕
 
-6) Ative o ambiente virtual digitando `conda activate dom_sc`. Vai aparecer no '(dom_sc)' no início da linha. ▶️
+6) Ative o ambiente virtual digitando `conda activate dom_sc`. Vai aparecer '(dom_sc)' no início da linha. ▶️
 
 7) Agora é só instalar as bibliotecas Python necessárias para o projeto. 📚
 
