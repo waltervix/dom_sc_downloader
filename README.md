@@ -10,7 +10,7 @@ Projeto criado em Python 🐍 (`main.py`) para executar web scraping e download 
     
 *   Faz download de diferentes tipos de documentos (PDF 📃, DOC 📄, XLS 📊 etc.) a partir dos links obtidos 📥
     
-*   Salva os documentos baixados localmente na pasta `./documentos` 📂, com nomes tratados e organizados 🗂
+*   Salva os documentos baixados localmente na pasta `.\documentos` 📂, com nomes tratados e organizados 🗂
     
 *   Gera um arquivo CSV 📇 com nomes dos documentos e links para as páginas de origem dos documentos ↩️
     
@@ -44,7 +44,7 @@ Para utilizar o script, é necessário:
     
 4.  O processo de scraping, download e organização dos arquivos será feito automaticamente ⚙️
     
-5.  Os documentos e arquivo CSV serão salvos na pasta local `./documentos`, criada pelo script 📂
+5.  Os documentos e arquivo CSV serão salvos na pasta local `.\documentos`, criada pelo script 📂
     
 
 Caso deseje customizar ou estender o programa, o código fonte pode ser adaptado conforme necessário. 🛠
