@@ -20,8 +20,6 @@ O procedimento a seguir cria um ambiente virtual com interpretador Python que po
 
 8) Para desativar o ambiente virtual, digite `conda deactivate`. Voltará para o ambiente base do Miniconda `(Base)`. ⏹️
 
-Aqui está o texto com emojis temáticos sobre ambientes virtuais em Python:
-
 ## 🐍 Razões para criar ambientes virtuais em Python 📦 
 
 🗂️ Isolamento de dependências: Cada projeto pode ter suas próprias dependências (bibliotecas) em versões específicas, sem conflitar com outros projetos.
