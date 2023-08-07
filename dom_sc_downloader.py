@@ -59,10 +59,13 @@ else:
 
 # Extrai diretório local
 dir_ = os.getcwd()
-print('Diretório local:', dir_)
+print('\nDiretório local:', dir_)
 
 # Cria pasta 'documentos' no diretório local, caso não exista
 if not os.path.exists('documentos'):
+
+    print('\nCriando pasta "\documentos"...')
+
     os.makedirs('documentos')
 
 # Cria arquivo 'documentos.csv' dentro da pasta 'documentos', caso não exista
@@ -70,6 +73,8 @@ arquivo_csv = fr'{dir_}\documentos\documentos.csv'
 
 # Verifica se o arquivo 'documentos.csv' existe. Se não existir, cria o arquivo
 if not os.path.exists(arquivo_csv):
+
+    print('\nCriando arquivo "\documentos\documentos.csv"...')
 
     # Cria arquivo csv vazio
     with open(fr'{dir_}\documentos\documentos.csv', 'w', newline='') as arquivo:
@@ -118,6 +123,8 @@ lista_extensoes = ['odt', 'doc', 'docx', 'pdf', 'zip', 'rtf', 'txt', 'zip', 'xls
 
 # Contador de documentos localizados
 num = 0
+
+print('\nIniciando download dos documentos do DOM-SC...')
 
 # Realiza loop sobre o número de páginas de resultados
 for i in range(1, ultima_pagina + 1):
@@ -181,7 +188,7 @@ for i in range(1, ultima_pagina + 1):
                 time.sleep(5)
 
         # Exibe tipo do documento. Útil para identificar e corrigir problemas
-        print(response.headers['Content-Type'])
+        #print(response.headers['Content-Type'])
 
         # Extrai subtipo do mimetype do documento (após a '/')
         tipo_arquivo = response.headers['Content-Type'].split('/')[-1]
@@ -260,7 +267,7 @@ for i in range(1, ultima_pagina + 1):
         # =======================================================
         
         # Exibe portaria localizada, bem como o tempo de processamento
-        print(contador, '  ', h4, '-', href, f'({round((time.time() - start), 1)}s)')
+        print(contador, '\t', h4, '-', href, f'({round((time.time() - start), 1)}s)')
 
         # Atualiza arquivo 'documentos.csv' usando a função criada
         atualiza_arquivo_csv([f'{h4}_{i}_', f'=HIPERLINK("{href}")', i])
@@ -274,5 +281,5 @@ for i in range(1, ultima_pagina + 1):
         # Incrementa contador do total de documentos localizados
         num += 1
         
-# Exibe totald e documentos localizados
-print('\nDocumentos localizados:', num)
+print('\nDownload concluído!')
+print('\nTotal de documentos baixados:', num, '\n')
