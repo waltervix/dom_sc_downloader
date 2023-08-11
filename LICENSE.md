@@ -1,5 +1,3 @@
-Aqui está o texto com emojis:
-
 # 📄 MIT License 🤝
 
 Copyright (c) 2023 waltervix
