@@ -51,4 +51,4 @@ Caso deseje customizar ou estender o programa, o código fonte pode ser adaptado
 
 ## 📄 Licença 
 
-Este projeto é distribuído sob a licença CC0 (domínio público, sem direitos reservados): https://creativecommons.org/share-your-work/public-domain/cc0/. 📜
+Este projeto é distribuído sob a licença CC0 (domínio público, sem direitos reservados): https://creativecommons.org/share-your-work/public-domain/cc0/ 📜
