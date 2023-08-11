@@ -25,7 +25,9 @@ pagina_unica = False
 
 # Solicita ao usuário URL da última (ou única) página do resultado da pesquisa no site DOM-SC (https://www.diariomunicipal.sc.gov.br/)
 url = input('\nCopie e cole aqui a URL da última (ou única) página de resultados do DOM-SC: ')
-lista_temp = url.split('=')[:-1]
+
+# Extrai número ao final da URL
+temp = url.split('=')[:-1]
 
 # Caso o resultado da pesquisa tenha mais de uma página
 if 'page=' in url:
@@ -40,7 +42,7 @@ if 'page=' in url:
         ultima_pagina = int(num_final)
 
         # Reconstitui URL sem o número final
-        url = f"{'='.join(lista_temp)}"
+        url = f"{'='.join(temp)}"
 
     # Caso o último elemento após '=' não seja um número (essa hipótese não foi verificada na prática.)
     else:
