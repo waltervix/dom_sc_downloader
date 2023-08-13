@@ -25,7 +25,6 @@ As seguintes bibliotecas Python são utilizadas:
 *   Random - para gerar nomes únicos para os arquivos baixados 🎲
 *   Time - para registrar tempos de execução do script ⏱️
 *   Shutil - para mover/copiar arquivos no sistema de arquivos 📁
-*   Random - para gerar strings aleatórias 🎲
 *   String - para manipulação de strings ➰
 *   Requests - para realizar as requisições HTTP e obter os dados das páginas 🌐
 
