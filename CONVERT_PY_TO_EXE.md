@@ -3,9 +3,11 @@
 
 A biblioteca [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) gera uma interface gráfica para conversão de arquivos `.py` para `.exe` usando a biblioteca [Pyinstaller](https://pyinstaller.org/en/stable/index.html) 👨‍💻
 
+O procedimento a seguir demonstra como realizar a conversão.
+
 ## 🗂️ Passo a passo
 
-1) Instale a bibliteca `auto-py-to-exe` no ambiente virtual criado:
+1) Instale a bibliteca `auto-py-to-exe` no ambiente virtual criado para seu projeto:
   ```
 pip install auto-py-to-exe
 ```
