@@ -5,7 +5,7 @@
 
 [Conda](https://docs.conda.io/projects/conda/en/stable/) é um sistema de gerenciamento de pacotes e de ambientes virtuais de código aberto que roda em Windows, macOS e Linux. O Conda cria ambientes virtuais e instala, executa e atualiza rapidamente pacotes e suas dependências ([Lista de comandos do Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)).
 
-O procedimento a seguir cria um ambiente virtual denominado 'dom_sc', contendo o interpretador Python 3.10, que pode ser executado em qualquer pasta, incluindo pendrives e hd externos.
+O procedimento a seguir cria um ambiente virtual denominado 'dom_sc', contendo o interpretador Python 3.10, que pode ser executado em qualquer pasta, incluindo pendrive e hd externo.
  
 ## 🗂️ Passo a passo
 
