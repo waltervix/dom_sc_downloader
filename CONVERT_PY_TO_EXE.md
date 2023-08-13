@@ -1,7 +1,7 @@
-# Convertendo arquivos .py para .exe com auto-py-to-exe 📦
+# 📦 Como cenverter arquivos .py para .exe com auto-py-to-exe
 
 
-A biblioteca [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) cria uma interface gráfica para conversão de arquivos `.py` para `.exe` usando a biblioteca [Pyinstaller](https://pyinstaller.org/en/stable/index.html) 👨‍💻
+A biblioteca [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) gera uma interface gráfica para conversão de arquivos `.py` para `.exe` usando a biblioteca [Pyinstaller](https://pyinstaller.org/en/stable/index.html) 👨‍💻
 
 
 ## Pré-requisitos
