@@ -12,7 +12,7 @@ Projeto criado em Python 🐍 (`dom_sc_downloader.py`) para executar web scrapin
     
 *   Salva os documentos baixados na pasta `.\documentos` 📂, com nomes tratados e organizados 🗂
     
-*   Gera um arquivo CSV 📇 com nomes dos documentos e links para as páginas de origem dos documentos ↩️
+*   Gera um arquivo CSV 📇 com nomes dos documentos e links para as URLs de origem ↩️
     
 
 ## 📚 Bibliotecas utilizadas
