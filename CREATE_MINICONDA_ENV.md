@@ -8,21 +8,23 @@ O procedimento a seguir cria um ambiente virtual com interpretador Python que po
 
 2) Execute o instalador do Miniconda, indicando precisamente o caminho para instalação. Certifique-se de que a pasta 'miniconda3' se encontra no final do caminho de instalação (Ex.: `D:\miniconda3`). Não é necessário ser administrador do sistema. Após esse procedimento, será criada a pasta `miniconda3`, contendo o interpretador Python 3.10. 📁
 
-3) Abra um terminal do Windows (CMD) e navegue até a pasta `miniconda3\condabin`. 🖥 
+3) Abra o terminal do Windows (cmd) e navegue até a pasta `miniconda3\condabin`. 🖥 
 
-4) Dentro da pasta `condabin`, digite `conda.bat activate`. Isso irá abrir o ambiente base do Miniconda. Aparecerá `(Base)` no início da linha. 🐍
+4) Dentro da pasta `condabin`, digite `conda.bat activate`. Isso ativará o ambiente base do Miniconda. A ativação é indicada pela exibição de `(Base)` no início da linha (Ex.: `(base) D:\miniconda3\condabin`). 🐍
 
-5) Crie um ambiente virtual denominado 'dom_sc' digitando `conda create --name dom_sc python=3.10` 🆕
+5) Para criar um ambiente virtual denominado 'dom_sc' que contenha o interpretador Python 3.10, digite `conda create --name dom_sc python=3.10`. O interpretador Python ficará restrito ao ambiente virtual criado 🆕
 
-6) Ative o ambiente virtual digitando `conda activate dom_sc`. Vai aparecer `(dom_sc)` no início da linha. ▶️
+6) Ative o ambiente virtual criado digitando `conda activate dom_sc`. A ativação é indicada pela exibição de `(dom_sc)` no início da linha (Ex.: `(dom_sc) D:\miniconda3\condabin`). ▶️
 
-7) Pronto! Agora é só instalar as bibliotecas Python necessárias para o projeto (`pip -r install requirements.txt`). 📚
+7) Pronto! Agora é só instalar as bibliotecas Python necessárias para o projeto (`pip install [biblioteca]` ou `pip -r install requirements.txt`). As bibliotecas instaladas ficarão restritas ao ambiente virtual criado 📚
 
-8) Para desativar o ambiente virtual, digite `conda deactivate`. Voltará para o ambiente base do Miniconda `(Base)`. ⏹️
+8) Para desativar o ambiente virtual e todos os seus componentes, digite `conda deactivate`. A desativação do ambiente virtual será indicada pela exibição de `(Base)` no início da linha. ⏹️
 
-9) Para desativar o ambiente base, digite novamente `conda deactivate`. 🖥️
+9) Para deletar o ambiente virtual 'dom_sc', digite `conda remove --name dom_sc --all` 🗑️
 
-10) Para limpar o terminal, digite `cls`; para para voltar ao diretório raiz, digite `cd/`. 🪟
+10) Para desativar o ambiente base, digite novamente `conda deactivate`. 🖥️
+
+11) Para limpar o terminal, digite `cls`; para para voltar ao diretório raiz, digite `cd/`. 🪟
 
 ## 🐍 Razões para criar ambientes virtuais em Python 📦 
 
