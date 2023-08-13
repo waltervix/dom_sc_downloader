@@ -36,6 +36,6 @@ O processo de conversão de um arquivo Python para um arquivo executável é bem
 
 * Abrir o local onde o arquivo `.exe` foi salvo e executá-lo 🏃‍♂️
 
-Para saber mais sobre a configuração da interface gráfica do `auto-py-to-exe`, consulte as [instruções de preenchimento](https://nitratine.net/blog/post/issues-when-using-auto-py-to-exe/?utm_source=auto_py_to_exe&utm_medium=application_link&utm_campaign=auto_py_to_exe_help&utm_content=top)
+Para saber mais sobre a configuração da interface gráfica do `auto-py-to-exe`, consulte as [instruções de preenchimento e solução de problemas](https://nitratine.net/blog/post/issues-when-using-auto-py-to-exe/?utm_source=auto_py_to_exe&utm_medium=application_link&utm_campaign=auto_py_to_exe_help&utm_content=top)
 
 A biblioteca `auto-py-to-exe` torna muito simples a conversão de arquivos `.py` para `.exe`, auxilinado na automação e distribuição do seu código Python! 🚀
