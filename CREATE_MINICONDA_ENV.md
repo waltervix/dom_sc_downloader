@@ -3,7 +3,7 @@
 
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) é um instalador mínimo e gratuito do Conda. É uma pequena versão do [Anaconda](https://www.anaconda.com/about-us) que inclui apenas Conda, Python, os pacotes dos quais eles dependem e um pequeno número de outros pacotes úteis, incluindo pip, zlib e alguns outros.
 
-[Conda](https://docs.conda.io/projects/conda/en/stable/) é um sistema de gerenciamento de pacotes e sistema de gerenciamento de ambiente de código aberto que roda em Windows, macOS e Linux. O Conda instala, executa e atualiza rapidamente pacotes e suas dependências.
+[Conda](https://docs.conda.io/projects/conda/en/stable/) é um sistema de gerenciamento de pacotes e de ambientes virtuais de código aberto que roda em Windows, macOS e Linux. O Conda cria ambientes virtuais e instala, executa e atualiza rapidamente pacotes e suas dependências.
 
 O procedimento a seguir cria um ambiente virtual com interpretador Python 3.10 que pode ser executado em qualquer pasta, incluindo pendrives e hd externos.
  
