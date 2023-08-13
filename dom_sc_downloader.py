@@ -1,4 +1,4 @@
-# Módulos nativos
+# Importa módulos nativos
 import os
 import re
 import csv
@@ -7,7 +7,7 @@ import shutil
 import random
 import string
 
-# Módulos instalados
+# Importa módulos instalados
 import requests
 from bs4 import BeautifulSoup
 
