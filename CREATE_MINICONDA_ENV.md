@@ -16,9 +16,13 @@ O procedimento a seguir cria um ambiente virtual com interpretador Python que po
 
 6) Ative o ambiente virtual digitando `conda activate dom_sc`. Vai aparecer `(dom_sc)` no início da linha. ▶️
 
-7) Agora é só instalar as bibliotecas Python necessárias para o projeto. 📚
+7) Agora é só instalar as bibliotecas Python necessárias para o projeto (`pip -r install requirements.txt`). 📚
 
 8) Para desativar o ambiente virtual, digite `conda deactivate`. Voltará para o ambiente base do Miniconda `(Base)`. ⏹️
+
+9) Para desativar o ambiente base, digite novamente `conda deactivate`. 🖥️
+
+10) Digite `cls` para limpar o terminal e `cd/` para voltar ao diretório raiz. 🪟
 
 ## 🐍 Razões para criar ambientes virtuais em Python 📦 
 
