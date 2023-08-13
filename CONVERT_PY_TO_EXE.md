@@ -28,7 +28,7 @@ O processo de conversão de um arquivo Python para um arquivo executável é bem
 
 * Decidir se deseja que a janela do terminal seja exibida pelo arquivo executável 🚫
 
-* Adicionar um ícone à janela do programa 🖼️ 
+* Adicionar um ícone ao arquivo executábel 🖼️ 
 
 * Adicionar arquivos extras necessários ao seu projeto e que não são arquivos `.py` (Ex.: imagens, CSV etc.) 🗂️
 
