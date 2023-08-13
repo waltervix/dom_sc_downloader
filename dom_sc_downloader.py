@@ -285,3 +285,5 @@ for i in range(1, ultima_pagina + 1):
         
 print('\nDownload concluído!')
 print('\nTotal de documentos baixados:', num, '\n')
+
+input('Pressione qualquer tecla para sair do programa...')
