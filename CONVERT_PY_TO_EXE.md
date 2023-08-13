@@ -16,9 +16,9 @@ pip install auto-py-to-exe
 auto-py-to-exe
 ```
 
-**3)** Preencha os campos da interface gráfica conforme desejado.
+**3)** Preencha os campos da interface gráfica conforme desejado, em especial o campo _**Output Directory**_, localizado dentro de _**Settings**_, que recebe o caminho para a pasta `output` onde o arquivo `.exe` deve ser salvo (Ex.`D:\output`).
 
-O processo de conversão de um arquivo Puthon para um arquivo executável é bem simples na maioria dos casos. Em síntese, ele consiste em:
+O processo de conversão de um arquivo Python para um arquivo executável é bem simples na maioria dos casos. Em síntese, ele consiste em:
 
 * Abrir a interface gráfica digitando `auto-py-to-exe` no terminal 🖥️
 
