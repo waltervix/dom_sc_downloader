@@ -7,16 +7,16 @@ O procedimento a seguir demonstra como realizar a conversão usando o terminal d
 
 ## 🗂️ Passo a passo
 
-1) Instale a bibliteca `auto-py-to-exe` no ambiente virtual criado para seu projeto:
+**1)** Instale a bibliteca `auto-py-to-exe` no ambiente virtual criado para seu projeto:
   ```
 pip install auto-py-to-exe
 ```
-2)   Abra a interface gráfica da biblioteca `auto-py-to-exe`:
+**2)**   Abra a interface gráfica da biblioteca `auto-py-to-exe`:
    ```
 auto-py-to-exe
 ```
 
-3) Preencha os campos da interface gráfica conforme desejado.
+**3)** Preencha os campos da interface gráfica conforme desejado.
 
 O processo de conversão de um arquivo Puthon para um arquivo executável é bem simples na maioria dos casos. Em síntese, ele consiste em:
 
@@ -38,7 +38,4 @@ O processo de conversão de um arquivo Puthon para um arquivo executável é bem
 
 Para saber mais sobre a configuração da interface gráfica do `auto-py-to-exe`, consulte as [instruções de preenchimento](https://nitratine.net/blog/post/issues-when-using-auto-py-to-exe/?utm_source=auto_py_to_exe&utm_medium=application_link&utm_campaign=auto_py_to_exe_help&utm_content=top)
 
-
-4) Pronto! Seu executável .exe será gerado na mesma pasta do arquivo .py original 😃
-
-A biblioteca auto-py-to-exe torna muito simples a conversão de arquivos `.py` para `.exe`, auxilinado na automação e distribuição do seu código Python! 🚀
+A biblioteca `auto-py-to-exe` torna muito simples a conversão de arquivos `.py` para `.exe`, auxilinado na automação e distribuição do seu código Python! 🚀
