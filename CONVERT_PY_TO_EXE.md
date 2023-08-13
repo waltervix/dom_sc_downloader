@@ -3,6 +3,8 @@
 
 A biblioteca [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) gera uma interface gráfica para conversão de arquivos `.py` para `.exe` usando a biblioteca [Pyinstaller](https://pyinstaller.org/en/stable/index.html) 👨‍💻
 
+[Página de ajuda](https://nitratine.net/blog/post/issues-when-using-auto-py-to-exe/?utm_source=auto_py_to_exe&utm_medium=application_link&utm_campaign=auto_py_to_exe_help&utm_content=top) sobre a utilização da biblioteca `auto-py-to-exe`
+
 O procedimento a seguir demonstra como realizar a conversão usando o terminal do Windows.
 
 ## 🗂️ Passo a passo
@@ -11,14 +13,14 @@ O procedimento a seguir demonstra como realizar a conversão usando o terminal d
   ```
 pip install auto-py-to-exe
 ```
-2)   Abra a interface gráfica:
+2)   Abra a interface gráfica da biblioteca `auto-py-to-exe`:
    ```
 auto-py-to-exe
 ```
 
-4) Execute o instalador do Miniconda, indicando precisamente o caminho para instalação. Certifique-se de que a pasta 'miniconda3' se encontra no final do caminho de instalação (Ex.: `D:\miniconda3`). Não é necessário ser administrador do sistema. Após esse procedimento, será criada a pasta `miniconda3`, contendo o interpretador Python 3.10. 📁
+3) Preencha os campos da interface gráfica conforme desejado.
 
-5) Abra o terminal do Windows (cmd) e navegue até a pasta `miniconda3\condabin`. 🖥 
+
 
 
 
