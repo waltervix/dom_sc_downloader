@@ -6,7 +6,7 @@ O procedimento a seguir cria um ambiente virtual com interpretador Python que po
 
 1) Obtenha uma cópia do [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Baixe a versão para Windows com Python 3.10. 💻
 
-2) Descompacte/instale em uma pasta do computador. Será gerada a pasta `miniconda3`, contendo o interpretador Python. 📁
+2) Execute o instalador do Miniconda, indicando precisamente o caminho para instalação. Certifique-se de que a pasta 'miniconda3' se encontra no final do caminho de instalação (Ex.: `D:\miniconda3`). Não é necessário ser administrador do sistema. Após esse procedimento, será criada a pasta `miniconda3`, contendo o interpretador Python 3.10. 📁
 
 3) Abra um terminal do Windows (CMD) e navegue até a pasta `miniconda3\condabin`. 🖥 
 
