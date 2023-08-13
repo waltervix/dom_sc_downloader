@@ -5,7 +5,7 @@ A biblioteca [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) gera uma
 
 [Página de ajuda](https://nitratine.net/blog/post/issues-when-using-auto-py-to-exe/?utm_source=auto_py_to_exe&utm_medium=application_link&utm_campaign=auto_py_to_exe_help&utm_content=top) sobre a utilização da biblioteca `auto-py-to-exe`
 
-O procedimento a seguir demonstra como realizar a conversão usando o terminal do Windows.
+O procedimento a seguir demonstra como realizar a conversão usando o terminal do Windows (cmd).
 
 ## 🗂️ Passo a passo
 
