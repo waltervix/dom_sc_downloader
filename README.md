@@ -40,7 +40,7 @@ Para utilizar o script, é necessário:
     
 2.  Copiar a URL da última (ou única) página de resultados (clicar no botão Última) 📋
     
-3.  Colar essa URL no terminal quando solicitado pelo programa 💻
+3.  Colar essa URL no terminal quando solicitado pelo programa. Para colar no terminal um texto copiado, clique no botão direito do mouse 💻
     
 4.  O processo de scraping, download e organização dos arquivos será feito automaticamente ⚙️
     
