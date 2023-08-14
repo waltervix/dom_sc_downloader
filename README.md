@@ -44,6 +44,18 @@ Para utilizar o script, é necessário:
 4.  O processo de scraping, download e organização dos arquivos será feito automaticamente ⚙️
     
 5.  Os documentos e arquivo CSV serão salvos na pasta local `.\documentos`, criada pelo script 📂
+
+
+
+## 💻 Executando no terminal
+
+Para executar o script no terminal do Windows:
+
+* Ative o ambiente virtual criado
+  
+* Navegue até a pasta onde se encontra o arquivo `dom_sc_downloader`
+  
+* Digite na linha de comando `python dom_sc_downloader.py`
     
 
 Caso deseje customizar ou estender o programa, o código fonte pode ser adaptado conforme necessário. 🛠
