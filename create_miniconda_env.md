@@ -1,7 +1,7 @@
 # 🐍 Como criar ambientes virtuais usando Miniconda 
 
 
-[Miniconda](https://docs.conda.io/en/latest/miniconda.html) é um instalador mínimo e gratuito do Conda. É uma pequena versão do [Anaconda](https://www.anaconda.com/about-us) que inclui apenas Conda, Python, os pacotes dos quais eles dependem e um pequeno número de outros pacotes úteis, incluindo pip, zlib e alguns outros.
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html) é uma versão compacta e gratuita do gerenciador de bibliotecas Conda. É uma pequena versão do [Anaconda](https://www.anaconda.com/about-us) que inclui apenas Conda, Python, os pacotes dos quais eles dependem e um pequeno número de outros pacotes úteis, incluindo pip, zlib e alguns outros.
 
 [Conda](https://docs.conda.io/projects/conda/en/stable/) é um sistema de gerenciamento de pacotes e de ambientes virtuais de código aberto que roda em Windows, macOS e Linux. O Conda cria ambientes virtuais e instala, executa e atualiza rapidamente pacotes e suas dependências ([Lista de comandos do Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)).
 
