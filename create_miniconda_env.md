@@ -7,7 +7,7 @@
 
 O procedimento a seguir cria um ambiente virtual denominado 'dom_sc', contendo o interpretador Python 3.10, que pode ser executado em qualquer pasta, incluindo pendrive e hd externo.
  
-## 👣 Passo a passo
+## 🚶‍♂️ Passo a passo
 
 1) Obtenha uma cópia do [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Baixe a versão para Windows com Python 3.10. 💻
 
