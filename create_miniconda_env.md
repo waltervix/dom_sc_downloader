@@ -11,7 +11,7 @@ O procedimento a seguir cria um ambiente virtual denominado 'dom_sc', contendo o
 
 1) Obtenha uma cópia do [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-other-installer-links.html). Baixe a versão para Windows com Python 3.10. 💻
 
-2) Execute o instalador do Miniconda, indicando precisamente o caminho para instalação. Certifique-se de que a pasta 'miniconda3' se encontra no final do caminho de instalação (Ex.: `D:\miniconda3`). Não é necessário ser administrador do sistema. Após esse procedimento, será criada a pasta `miniconda3`, contendo o interpretador Python 3.10. 📁
+2) Execute o instalador do Miniconda, apertando o botão `NEXT` até aparecer o local para instalação. Neste ponto, selecione o local de instalação usando o botão `Browse`. Certifique-se de que a pasta 'miniconda3' se encontra no final do caminho de instalação (Ex.: `D:\miniconda3`). Não é necessário ser administrador do sistema. Após esse procedimento, será criada a pasta `miniconda3`, contendo o interpretador Python 3.10. 📁
 
 3) Abra o terminal do Windows (cmd) e navegue até a pasta `miniconda3\condabin`. 🖥 
 
