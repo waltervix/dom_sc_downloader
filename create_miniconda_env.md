@@ -15,7 +15,7 @@ O procedimento a seguir cria um ambiente virtual denominado 'dom_sc', contendo o
 
 3) Abra o terminal do Windows (cmd) e navegue até a pasta `miniconda3\condabin`. 🖥 
 
-4) Dentro da pasta `condabin`, digite `conda.bat activate`. Isso ativará o ambiente base do Miniconda. A ativação é indicada pela exibição de `(Base)` no início da linha (Ex.: `(base) D:\miniconda3\condabin`). 🐍
+4) Dentro da pasta `condabin`, digite `conda activate`. Isso ativará o ambiente base do Miniconda. A ativação é indicada pela exibição de `(Base)` no início da linha (Ex.: `(base) D:\miniconda3\condabin`). 🐍
 
 5) Para criar um ambiente virtual denominado 'dom_sc' que contenha o interpretador Python 3.10, digite `conda create --name dom_sc python=3.10`. O interpretador Python ficará restrito ao ambiente virtual criado 🆕
 
