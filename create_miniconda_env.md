@@ -3,13 +3,13 @@
 
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) é uma versão compacta e gratuita do gerenciador de bibliotecas Conda. É uma versão reduzida do [Anaconda](https://www.anaconda.com/about-us) que inclui apenas Conda, Python, os pacotes dos quais eles dependem e alguns outros pacotes úteis como pip, zlib etc.
 
-[Conda](https://docs.conda.io/projects/conda/en/stable/) é um sistema de gerenciamento de pacotes e de ambientes virtuais de código aberto que roda em Windows, macOS e Linux. O Conda cria ambientes virtuais e instala, executa e atualiza rapidamente pacotes e suas dependências ([Lista de comandos do Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)).
+[Conda](https://docs.conda.io/projects/conda/en/stable/) é um **sistema de gerenciamento de pacotes e de ambientes virtuais** de código aberto que roda em Windows, macOS e Linux. O Conda cria ambientes virtuais e instala, executa e atualiza rapidamente pacotes e suas dependências ([Lista de comandos do Conda](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)).
 
 O procedimento a seguir cria um ambiente virtual denominado 'dom_sc', contendo o interpretador Python 3.10, que pode ser executado em qualquer pasta, incluindo pendrive e hd externo.
  
 ## 🚶‍♂️ Passo a passo
 
-1) Obtenha uma cópia do [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Baixe a versão para Windows com Python 3.10. 💻
+1) Obtenha uma cópia do [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/miniconda-other-installer-links.html). Baixe a versão para Windows com Python 3.10. 💻
 
 2) Execute o instalador do Miniconda, indicando precisamente o caminho para instalação. Certifique-se de que a pasta 'miniconda3' se encontra no final do caminho de instalação (Ex.: `D:\miniconda3`). Não é necessário ser administrador do sistema. Após esse procedimento, será criada a pasta `miniconda3`, contendo o interpretador Python 3.10. 📁
 
